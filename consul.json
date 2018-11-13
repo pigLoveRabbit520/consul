@@ -1,0 +1,20 @@
+{
+    "datacenter": "xys_center",
+    "data_dir": "/consul/data",
+    "log_level": "INFO",
+    "server": true,
+    "bootstrap_expect": 3,
+    "acl_datacenter": "xys_center",
+    "acl_master_token": "fe15af83-d36e-4b30-9859-7068e31c49a2",
+    "acl_default_policy": "deny",
+    "acl_down_policy": "extend-cache",
+    "bind_addr": "192.168.1.11",
+    "client_addr": "0.0.0.0",
+    "retry_join": ["192.168.1.12", "192.168.1.13"],
+    "retry_interval": "3s",
+    "raft_protocol": 3,
+    "enable_debug": false,
+    "rejoin_after_leave": true,
+    "encrypt": "h+TjXojPyilna4eO+dCeow==",
+    "enable_syslog": false
+}
